@@ -1,0 +1,10 @@
+/* Custom overrides */
+
+img {
+    width: auto;
+}
+
+header.site {
+  /* padding: 2rem 0; */
+  margin-bottom: 1rem;
+}
