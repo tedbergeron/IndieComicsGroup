@@ -3,13 +3,38 @@
   
   <url>
     <loc>http://indiecomicsgroup.org/</loc>
-    <lastmod>2012-02-06T11:30:20+02:00</lastmod>
+    <lastmod>2013-04-11T11:30:20+02:00</lastmod>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://indiecomicsgroup.org/post/2013-04-11-Writing-for-the-love-of-it-3/</loc>
+    <lastmod>2013-04-11T11:30:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://indiecomicsgroup.org/post/2012-04-15-Copyright/</loc>
+    <lastmod>2012-04-15T11:30:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://indiecomicsgroup.org/post/2012-03-21-Digital-publishing-and-distributing/</loc>
+    <lastmod>2012-03-21T11:30:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://indiecomicsgroup.org/post/2012-02-14-Writing-for-the-love-of-it-2/</loc>
+    <lastmod>2012-02-14T11:30:20+02:00</lastmod>
   </url>
   
   <url>
     <loc>http://indiecomicsgroup.org/post/2012-02-06-Reality-Competition-to-Find-New-Talent/</loc>
     <lastmod>2012-02-06T11:30:20+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://indiecomicsgroup.org/post/2012-01-18-Writing-for-the-love-of-it-1/</loc>
+    <lastmod>2012-01-18T11:30:20+02:00</lastmod>
   </url>
   
   <url>
@@ -28,23 +53,23 @@
   </url>
   
   <url>
+    <loc>http://indiecomicsgroup.org/post/2011-12-06-We-need-a-logo/</loc>
+    <lastmod>2011-12-06T11:40:20+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://indiecomicsgroup.org/post/2011-12-06-The-Beginning/</loc>
     <lastmod>2011-12-06T11:30:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://indiecomicsgroup.org/post/About/</loc>
-    <lastmod>2011-01-11T11:30:20+02:00</lastmod>
+    <loc>http://indiecomicsgroup.org/About/</loc>
+    <lastmod>2011-12-06T01:30:20+02:00</lastmod>
   </url>
   
   <url>
-    <loc>http://indiecomicsgroup.org/post/go-is-for-lovers/</loc>
-    <lastmod>1999-09-09T13:47:08+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://indiecomicsgroup.org/post/TestAsciiDoc/</loc>
-    <lastmod>1999-09-09T03:56:43+02:00</lastmod>
+    <loc>http://indiecomicsgroup.org/Answers/</loc>
+    <lastmod>2011-12-06T01:30:20+02:00</lastmod>
   </url>
   
 </urlset>
