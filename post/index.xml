@@ -5,9 +5,249 @@
     <link>http://indiecomicsgroup.org/post/</link>
     <language>en-us</language>
     <author></author>
-    <rights>(C) 2013</rights>
-    <updated>2013-04-11 11:30:20 &#43;0200 &#43;0200</updated>
+    <rights>(C) 2016</rights>
+    <updated>2016-03-15 11:30:20 &#43;0200 &#43;0200</updated>
 
+    
+      
+        <item>
+          <title>How to scale a layer in GIMP</title>
+          <link>http://indiecomicsgroup.org/post/2016-03-14-GimpHowToScaleLayer/</link>
+          <pubDate>Tue, 15 Mar 2016 11:30:20 &#43;0200</pubDate>
+          <author></author>
+          <guid>http://indiecomicsgroup.org/post/2016-03-14-GimpHowToScaleLayer/</guid>
+          <description>&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Tutorial by Ted Bergeron&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Scaling an image in &lt;a href=&#34;http://www.gimp.org/downloads/&#34;&gt;GIMP&lt;/a&gt; is not easy like Photoshop.
+There are no handles to grab onto to transform and scale.
+So here we go.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_starting_files&#34;&gt;Starting files&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;You&amp;#8217;ll need a background image and a character image.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;A large cityscape image.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;A character image. I&amp;#8217;ll use a potato on a white background so I can easily remove the white and make it transparent.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Open GIMP and create a new file&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;7&#34; wide x 10.5&#34; high&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Create a layer to paste your background into&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_add_city_background&#34;&gt;Add city background&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Open your city background image&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Select all and copy (Ctrl-A, Ctrl-C)&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;menuseq&#34;&gt;&lt;span class=&#34;menu&#34;&gt;Edit&lt;/span&gt;&amp;#160;&amp;#9656; &lt;span class=&#34;menuitem&#34;&gt;Paste into&lt;/span&gt;&lt;/span&gt; your working image.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;image&#34;&gt;&lt;img src=&#34;http://indiecomicsgroup.org/images/gimpScale1paste.png&#34; alt=&#34;gimpScale1paste&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;That is a large image so let&amp;#8217;s make it fit side-to-side.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_scale_the_layer&#34;&gt;Scale the layer&lt;/h3&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;menuseq&#34;&gt;&lt;span class=&#34;menu&#34;&gt;Layer&lt;/span&gt;&amp;#160;&amp;#9656; &lt;span class=&#34;menuitem&#34;&gt;Scale Layer&amp;#8230;&amp;#8203;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;In the width set to the width of the image, which is 7&#34;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Tab into the height box.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click the Scale button.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;image&#34;&gt;&lt;img src=&#34;http://indiecomicsgroup.org/images/gimpScale2width.png&#34; alt=&#34;gimpScale2width&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_add_the_character_layer&#34;&gt;Add the character layer&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;Next we will add the giant potato character.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;menuseq&#34;&gt;&lt;span class=&#34;menu&#34;&gt;File&lt;/span&gt;&amp;#160;&amp;#9656; &lt;span class=&#34;menuitem&#34;&gt;Open as Layers&amp;#8230;&amp;#8203;&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Select the potato character image and click Open.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;admonitionblock tip&#34;&gt;
+&lt;table&gt;
+&lt;tr&gt;
+&lt;td class=&#34;icon&#34;&gt;
+&lt;i class=&#34;fa icon-tip&#34; title=&#34;Tip&#34;&gt;&lt;/i&gt;
+&lt;/td&gt;
+&lt;td class=&#34;content&#34;&gt;
+This is a faster method than opening a file and copy/pasting onto a layer.
+&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/table&gt;
+&lt;/div&gt;
+&lt;hr&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_make_background_transparent&#34;&gt;Make background transparent&lt;/h3&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;span class=&#34;menuseq&#34;&gt;&lt;span class=&#34;menu&#34;&gt;Layer&lt;/span&gt;&amp;#160;&amp;#9656; &lt;span class=&#34;submenu&#34;&gt;Transparency&lt;/span&gt;&amp;#160;&amp;#9656; &lt;span class=&#34;menuitem&#34;&gt;Add Alpha Channel&lt;/span&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use Fuzzy Select Tool&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Click in the white background&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Delete&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect2&#34;&gt;
+&lt;h3 id=&#34;_resize_the_character_to_fit_the_scene&#34;&gt;Resize the character to fit the scene&lt;/h3&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Use &lt;span class=&#34;menuseq&#34;&gt;&lt;span class=&#34;menu&#34;&gt;Layer&lt;/span&gt;&amp;#160;&amp;#9656; &lt;span class=&#34;menuitem&#34;&gt;Scale Layer&amp;#8230;&amp;#8203;&lt;/span&gt;&lt;/span&gt; again&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;This time you are going to guess. I tried 4&#34; wide to start.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Still too big, so I used Scale Layer again and changed it to 3&#34; wide.
+Looks good.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Move your character into place using the arrow keys or mouse.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_duplicate_cityscape_to_complete_the_image&#34;&gt;Duplicate cityscape to complete the image.&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Select the cityscape layer, I&amp;#8217;ve labeled Background Sky, and Duplicate Layer.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Move the new layer, I&amp;#8217;ve labeled City with sky removed, to the top.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;&lt;span class=&#34;image&#34;&gt;&lt;img src=&#34;http://indiecomicsgroup.org/images/gimpScale3layers.png&#34; alt=&#34;gimpScale3layers&#34;&gt;&lt;/span&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Use Fuzzy Select Tool.&lt;/p&gt;
+&lt;div class=&#34;ulist&#34;&gt;
+&lt;ul&gt;
+&lt;li&gt;
+&lt;p&gt;Click in the sky to select it.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Use the Shift key to add to the select as needed to select the sky.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;Click Delete.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect1&#34;&gt;
+&lt;h2 id=&#34;_layer_sandwich&#34;&gt;Layer sandwich&lt;/h2&gt;
+&lt;div class=&#34;sectionbody&#34;&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;The illusion is complete.
+We have a background city on the bottom.
+A potato character on a transparent layer sandwiched in the middle.
+Finally the city layer duplicated on the top with a transparent sky so that the potato and background sky can show through.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;You can use this same technique with your own hand drawn sketches.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;sect3&#34;&gt;
+&lt;h4 id=&#34;_credits&#34;&gt;Credits&lt;/h4&gt;
+&lt;div class=&#34;paragraph&#34;&gt;
+&lt;p&gt;San Francisco cityscape by &lt;a href=&#34;http://www.everystockphoto.com/photo.php?imageId=82108&#34;&gt;Richard Giles&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+        </item>
+      
     
       
         <item>
