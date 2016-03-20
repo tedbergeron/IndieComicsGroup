@@ -15,6 +15,8 @@
 .admonitionblock td.icon .icon-warning:before { content: "\f071"; color: #bf3400; }
 .admonitionblock td.icon .icon-important:before { content: "\f06a"; color: #bf0000; }
 
+.admonitionblock {margin-bottom: 1.5em;}
+
 span.footnote, span.footnoteref { vertical-align: super; font-size: 0.875em; }
 span.footnote a, span.footnoteref a { text-decoration: none; }
 span.footnote a:active, span.footnoteref a:active { text-decoration: underline; }
